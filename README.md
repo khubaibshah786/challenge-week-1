@@ -1,121 +1,96 @@
-# 01 HTML CSS Git: Code Refactor
+# Horiseon Site
 
-## Your Task
+![HTML](https://img.shields.io/badge/HTML-5-red)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
 
-**Note**: Be sure to review the [Challenge Guide](./Challenge-Guide.md) and the [Good README Guide](./Good-README-Guide.md) before you start working on this assignment!
+## The Repository
 
-This week your challenge is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's challenge involves a very important aspect of web development: **accessibility**. 
+This Respository (`'horiseonSeoSite'`) is where a customer have access to Social Solution Services by Horiseon for Search Engine Optimization (SEO), Online Reputation Managment and social media marketing as a service, the Source code is avaliable to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+The purpose of refactoring this project was to make the website more Accessability friendly so the site is optimized for search engines.
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
+As part of the refactoring process the code was not wrote in a concise and easy to understand format. The code required to be formatted and compressed to allow for compact code and to be understood easily. The navigation link for `'Search Engine Optimisation'` was not working as it had no ID attached to it. also there was no semantics added to the code as this allow individuals who make use of screen readers the ability to read the text.   
 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+There was no alt tags on any of the images, again these have been added for the purpose of screen readers.
 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
+The CSS was also changed as there were alot of classes with the same properties, these were changed to combine all those which have the same properties, reducing the lines of code and making it more concise.
 
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+Comments were also added to the Css where the combination of classes has been updated and generic comments for all the other classes to understand what they have also been added.
 
-Are you ready to jump in? Here are this week's challenge requirements:
+## Changes made
 
-### User Story
+- changes to the styling sheet, combining some classes to reduce code size
+- adding semantics to html file e.g nav, footer, article etc.
+- adding id to search engine section to allow naviagtion to work
+- adding comments to Css file to explain what each class does 
+- changing title text for screenreaders
+- adding alt text to each image for screen readers
+- adding comments to the Html file
+- updating the Readme file to explain what has been changed, including screenshot, credits. 
+## Table of Contents (Optional)
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+If your README is very long, add a table of contents to make it easy for users to find what they need.
 
-### Acceptance Criteria
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-Your website must meet accessibility standards. You can achieve this completing the following:
+## Deployed application
 
-* Semantic HTML elements can be found throughout the source code
-* HTML elements follow a logical structure independent of styling and positioning
-* Image and icon elements contain accessible `alt` attributes
-* Heading attributes fall in sequential order
-* Title elements contain a concise, descriptive title
+Live view of the webpage using Github pages feature
+* https://khubaibshah786.github.io/horiseonSeoSite/
 
-### Resources:
+## Installation
 
-* [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
+1. Firstly clone the project from Github into your local machine.
+2. Once you have successfully cloned the project, open the project in a IDE of your choice.
+3. Finally open the `Index.html` file and run it in the browser of your choice, and you will successfully have the website running!
 
-### Mock-Up
 
-The following image shows the web application's appearance and functionality:
+## Usage 
+### How to install from Github
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](Assets/01-html-css-git-challenge-demo.png)
+* Link to Github Repository - https://github.com/khubaibshah786/horiseonSeoSite
+* Click the SSH, Github Cli or HTTPS based on your cofiguration and then copy the link to clone.
+![alt text](assets/screenshots/download-project.png)
+* Once you have the copied link in your clip board, run a git command to clone  the project, (`screenshot below`).
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+    ![alt text](assets/screenshots/clone-command.png)
 
-### Getting Started
+* Once you have cloned the project in the IDE of your choice, left click on the `index.html` file and click open in default browser (`This example shows how it would be configured using VScode`).
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
+* Once you have opened the `index.html` in the browser you should see the site load as follows:
+![alt text](assets/screenshots/horiseon-1.png)
+![alt text](assets/screenshots/horiseon-2.png)
 
-1. Create a new repository on your GitHub account and clone it to your computer.
 
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
+## Credits
 
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+Tutorial followed to add Semantic to the `Index.html` file for accessability purposes
 
-4. On the Settings page, scroll down to the GitHub Pages section. Then, in the section labeled Source, select the `main` branch as your source.
+* https://www.w3schools.com/html/html5_semantic_elements.asp
 
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
+## License
 
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
+the Source code is avaliable to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
 
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
 
-Be sure to add, commit, and push your work to see the most up-to-date version of your app!
+## Badges
 
-### Requirements
+![HTML](https://img.shields.io/badge/HTML-5-red)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
 
-This challenge is assessed on the following criteria: 
+## Features
 
-#### Technical Acceptance Criteria: 40%
+### Navigation Options - `features`
 
-* Satisfies all of the above acceptance criteria plus the following code improvements:
+* Allowing user to navigate through the static site using the naviagtion options.
 
-  * Application's links all function correctly.
+## Contributing
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+No contributions needed
 
-  * Application's CSS file is properly commented.
 
-#### Deployment: 32%
 
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-#### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the challenge instructions.
-
-#### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-### Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
