@@ -36,10 +36,10 @@ If your README is very long, add a table of contents to make it easy for users t
 * [Credits](#credits)
 * [License](#license)
 
-## Deployed application
-
-Live view of the webpage using Github pages feature
-* https://khubaibshah786.github.io/horiseonSeoSite/
+## Links
+* Link to Github Repository - https://github.com/khubaibshah786/horiseonSeoSite
+* Live view of the webpage using Github pages feature -
+ https://khubaibshah786.github.io/horiseonSeoSite/
 
 ## Installation
 
